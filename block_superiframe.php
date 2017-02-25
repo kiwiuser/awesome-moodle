@@ -41,7 +41,7 @@ class block_superiframe extends block_base {
         }
 
         if (empty($this->instance)) {
-            $this->content = '';
+           // $this->content = '';
             return $this->content;
         }
 
